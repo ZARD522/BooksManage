@@ -107,6 +107,7 @@
     <Compile Include="admin21.Designer.cs">
       <DependentUpon>admin21.cs</DependentUpon>
     </Compile>
+    <Compile Include="Class1.cs" />
     <Compile Include="Dao.cs" />
     <Compile Include="Data.cs" />
     <Compile Include="login.cs">
