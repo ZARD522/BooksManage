@@ -107,6 +107,12 @@
     <Compile Include="admin21.Designer.cs">
       <DependentUpon>admin21.cs</DependentUpon>
     </Compile>
+    <Compile Include="admin22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin22.Designer.cs">
+      <DependentUpon>admin22.cs</DependentUpon>
+    </Compile>
     <Compile Include="Class1.cs" />
     <Compile Include="Dao.cs" />
     <Compile Include="Data.cs" />
@@ -124,6 +130,18 @@
     <Compile Include="user1.Designer.cs">
       <DependentUpon>user1.cs</DependentUpon>
     </Compile>
+    <Compile Include="user2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user2.Designer.cs">
+      <DependentUpon>user2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="user3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user3.Designer.cs">
+      <DependentUpon>user3.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="admin1.resx">
       <DependentUpon>admin1.cs</DependentUpon>
     </EmbeddedResource>
@@ -132,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="admin21.resx">
       <DependentUpon>admin21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin22.resx">
+      <DependentUpon>admin22.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
@@ -145,6 +166,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="user1.resx">
+      <DependentUpon>user1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user2.resx">
+      <DependentUpon>user2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user3.resx">
+      <DependentUpon>user3.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
